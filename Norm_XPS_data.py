@@ -40,6 +40,4 @@ plt.xlabel('Binding Energy Width [eV]')
 plt.ylabel('Intensity [arb. units]')
 
 np.savetxt('XPS_1FA_140eV_93eV_As-3d_as_loaded_1_n.txt', np.c_[R,Y])
-#https://stackoverflow.com/questions/15192847/saving-arrays-as-columns-with-np-savetxt
-
 plt.show()
