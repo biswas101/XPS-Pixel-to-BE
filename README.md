@@ -8,8 +8,8 @@ These set of code can be used for the conversion of X-ray Photoelectron Spectros
 Binding Energy with respect to Carbon 1s: <br/>
   BE<sub>2A</sub> = 285 - (E<sub>1</sub> - E<sub>2</sub>) - (KE<sub>2</sub> - KE<sub>1</sub>)   ± x
   
-  where, 1 means Carbon 1s, 2 means any other species
-         ```E``` is the photon energy
-         ```KE``` is the kinetic energy
-         ```x``` is the binding energy factor, that determine the shift with respect to Carbon 1s position
+  where, 1 means Carbon 1s, 2 means any other species<br/>
+         ```E``` is the photon energy<br/>
+         ```KE``` is the kinetic energy<br/>
+         ```x``` is the binding energy factor, that determine the shift with respect to Carbon 1s position<br/>
          
