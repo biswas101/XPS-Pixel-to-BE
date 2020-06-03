@@ -13,3 +13,11 @@ Binding Energy with respect to Carbon 1s: <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; ```KE``` is the kinetic energy<br/>
 &nbsp; &nbsp; &nbsp; &nbsp; ```x``` is the binding energy factor, that determine the shift with respect to Carbon 1s position<br/>
          
+## Prerequisites:
+
+* Python 3, or higher
+* or Pycharm with Proper Packages (i.e., NumPy, lmfit, matplotlib)
+
+## Author
+
+ * **Jyoti Biswas**
