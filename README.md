@@ -3,7 +3,7 @@ These set of code can be used for the conversion of X-ray Photoelectron Spectros
 
 *```Pixel_per_eV.py``` can be used to find a rough estimate of Pixel/eV.<br/>
 *```Gauss_Center.py``` fit every species with a gaussian function and shows the center pixel position. Use shifted KE energy data to better estimate the Pixel/eV information.
-*```Norm_XPS_data.py```  normalize the pixel data into BE window, which can be used in CasaXPS for fitting and Binding Energy normalization wth respect to Carbon 1s. To use in CaseXPS one needs to convert the .txt file into .vms file and use the following equation to normalize the data with respect to Carbon 1s.  BE<sub>2A</sub>
+*```Norm_XPS_data.py```  normalize the pixel data into BE window, which can be used in CasaXPS for fitting and Binding Energy normalization wth respect to Carbon 1s. To use in CaseXPS one needs to convert the .txt file into .vms file and use the following equation to normalize the data with respect to Carbon 1s. <br/>
 
-
-
+Binding Energy with respect to Carbon 1s: <br/>
+BE<sub>2A</sub> = () - () 
