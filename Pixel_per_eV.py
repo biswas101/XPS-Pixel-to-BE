@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy import genfromtxt
 
-data_1= genfromtxt('20200304_GaAs/2_Cs-Te_deposition/XPS_1FA_120eV_93eV_Ga-3d_deposition_1.txt',delimiter='',dtype=None, usecols=[0,1])
-data_2= genfromtxt('20200304_GaAs/2_Cs-Te_deposition/XPS_1FA_120eV_96eV_Ga-3d_deposition_1.txt',delimiter='',dtype=None, usecols=[0,1])
+data_1= genfromtxt('20200304_GaAs/XPS_1FA_120eV_93eV_Ga-3d_deposition_1.txt',delimiter='',dtype=None, usecols=[0,1])
+data_2= genfromtxt('20200304_GaAs/XPS_1FA_120eV_96eV_Ga-3d_deposition_1.txt',delimiter='',dtype=None, usecols=[0,1])
 
 x1=np.array(data_1[:, 0])
 y1=np.array(data_1[:, 1])
