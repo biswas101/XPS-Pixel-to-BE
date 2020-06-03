@@ -21,3 +21,8 @@ Binding Energy with respect to Carbon 1s: <br/>
 ## Author
 
  * **Jyoti Biswas**
+ 
+## Acknowledgments
+
+Great appreciation to BNL scientist **Dr. Jerzy T. Sadowski** for his valuable and constructive suggestions. 
+ 
