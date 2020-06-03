@@ -2,8 +2,7 @@
 # THis can be used to find true Pixel/eV, or Kintetic Energy width of Image XPS data
 # You need two file to calculate the shift.
 # While taking XPS data make sure to take two spectra of a same peak with 1, or 2 ev KE shift.
-#This code is inspired from -
-#https://lmfit.github.io/lmfit-py/model.html
+# This code is inspired from - https://lmfit.github.io/lmfit-py/model.html
 
 import matplotlib.pyplot as plt
 from numpy import exp, pi, sqrt
