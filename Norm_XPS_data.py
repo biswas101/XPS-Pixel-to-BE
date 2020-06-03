@@ -1,7 +1,7 @@
 '''
-This file Normalize the XPS data into ~12 eV Kinetic energy width
+This file Normalize the XPS data into ~12 eV binding energy width
 But before using this file, check that, BE width is actually 12 eV or not.
-You can check this, using Pixel_per_eV.py......
+You can check the width, using Pixel_per_eV.py or Gauss_Center.py
 '''
 
 import matplotlib.pyplot as plt
