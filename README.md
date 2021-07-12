@@ -5,6 +5,7 @@ These sets of codes can be used for the conversion of X-ray Photoelectron Spectr
 * ```Gauss_Center.py``` fit every species with a gaussian function and shows the center pixel position. Use shifted KE energy data to better estimate the Pixel/eV information. The process is not automated in the current version. One need to run two files that has shifted kintic energy. i.e., 93 eV and 94 eV. <br/>
 * ```Norm_XPS_data.py```  normalize the pixel data into BE (or, KE) window, which can be used in CasaXPS for fitting and binding energy normalization wth respect to Carbon 1s. To use in CaseXPS one needs to convert the .txt file into .vms file and use the following equation to normalize the data with respect to Carbon 1s. <br/>
 
+For constant Kinetic Energy type XPS, <br/>
 Binding Energy with respect to Carbon 1s: <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; BE<sub>2A</sub> = 285 - (E<sub>1</sub> - E<sub>2</sub>) - (KE<sub>2</sub> - KE<sub>1</sub>)   ± x
   
@@ -12,6 +13,11 @@ Binding Energy with respect to Carbon 1s: <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; ```E``` is the photon energy<br/>
 &nbsp; &nbsp; &nbsp; &nbsp; ```KE``` is the kinetic energy<br/>
 &nbsp; &nbsp; &nbsp; &nbsp; ```x``` is the binding energy factor, that determine the shift with respect to Carbon 1s position<br/>
+
+
+For constant Photon Energy type XPS, <br/>
+Binding Energy with respect to Carbon 1s: <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; BE<sub>2A</sub> = 285 - (KE<sub>2</sub> - KE<sub>1</sub>)   ± x
          
 ## Prerequisites:
 
