@@ -19,9 +19,15 @@ For constant Photon Energy type XPS, <br/>
 Binding Energy with respect to Carbon 1s: <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; BE<sub>2A</sub> = 285 - (KE<sub>2</sub> - KE<sub>1</sub>) 
 
-<br/>
+
 Obviously the peak position of carbon or other peak will not be at the center. The energy width in NSLS-II 21-ID-2 beamline is 12 ev, hence center position is 6 ev. Hence, the quation can be further re-written as, <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; BE<sub>2A</sub> = 285 - [KE<sub>2</sub> + (6-BEP<sub>2</sub>)- KE<sub>1</sub>- (6-BEP<sub>1</sub>)]
+&nbsp; &nbsp; &nbsp; &nbsp; BE<sub>2A</sub> = 285 - [KE<sub>2</sub> -KE<sub>1</sub>] + [BEP<sub>2</sub> -BEP<sub>1</sub>]
+
+Stepts involved: <br/>
+1. Use ImageJ and save the data, use linewidth 35 or higher.
+2. Normalize the Binding energy window to 12 ev.
+3. Convert the txt file to vmas on CasaXPS, and use the equation to Calibrate the BE.
 
          
 ## Prerequisites:
